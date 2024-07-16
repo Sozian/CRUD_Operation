@@ -1,0 +1,123 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark gray text */
+}
+
+h1 {
+  color: #007bff; /* Primary blue color */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  width: calc(100% - 22px); /* Full width minus padding */
+  box-sizing: border-box;
+}
+
+form input[type="file"] {
+  border: none;
+  padding: 0;
+  background: #e9ecef; /* Light background for file input */
+}
+
+form button {
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.error {
+  color: #dc3545; /* Red for error messages */
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff; /* White background for table */
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd; /* Light border for table */
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+thead {
+  background-color: #007bff; /* Blue background for table header */
+  color: #fff; /* White text */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+tbody tr:hover {
+  background-color: #e9ecef; /* Light background on hover */
+}
+
+img {
+  max-width: 100px;
+  border-radius: 4px; /* Rounded corners for images */
+}
+
+button {
+  background-color: #28a745; /* Green for buttons */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px; /* Spacing between buttons */
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+button.delete {
+  background-color: #dc3545; /* Red for delete buttons */
+}
+
+button.delete:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+button.edit {
+  background-color: #ffc107; /* Yellow for edit buttons */
+  color: #212529; /* Dark text */
+}
+
+button.edit:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
